@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="disArray">
+        <item>Enfermedad de Bowen</item>
+        <item>Carcinoma Basocelular</item>
+        <item>Lesiones Benignas Como Queratosis</item>
+        <item>Dermatofibroma</item>
+        <item>Melanoma</item>
+        <item>Melanocitos Nevi</item>
+        <item>Lesiones Vasculares</item>
+        <item>Otros</item>
+    </string-array>
+
+</resources>

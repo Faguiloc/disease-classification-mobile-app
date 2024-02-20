@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/backgroundTitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:text="@string/titleDialogReport"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/spinnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleLayout">
+        <TextView
+            android:id="@+id/tvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/reportMsg"
+            android:textColor="@color/black"
+            android:textSize="13sp"></TextView>
+
+        <Spinner
+            android:id="@+id/itemList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvMsg"
+            android:layout_margin="10dp"
+            ></Spinner>
+
+        <EditText
+            android:id="@+id/etInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemList"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/reportHint"> </EditText>
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Enviar Reporte"-->
+<!--            android:layout_below="@id/etReport"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_alignParentEnd="true"></Button>-->
+    </RelativeLayout>
+
+</RelativeLayout>

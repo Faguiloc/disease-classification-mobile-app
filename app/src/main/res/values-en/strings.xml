@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skin Disease Classifier</string>
+    <string name="btn_menu_check">Make Analysis</string>
+    <string name="btn_menu_cat">Catalog of classifiable diseases</string>
+    <string name="disclaimer">The following application is not intended to replace a medical consultation, but only to be used as a reference. If you think you may have a dangerous disease for your health, go to a medical center as soon as possible.</string>
+    <string name="btn_menu_photo">Take Photo</string>
+
+</resources>

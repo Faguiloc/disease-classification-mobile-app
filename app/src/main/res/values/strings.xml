@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Clasificador de Enfermedades Cutáneas</string>
+    <string name="btn_menu_check">Realizar revisión</string>
+    <string name="btn_menu_cat">Catalogo de enfermedades clasificables</string>
+    <string name="btn_menu_about">Acerca de</string>
+    <string name="disclaimer">La siguiente aplicación no busca reemplazar una consulta médica, sino solo ser utilizada como referencia. Si piensa que puede tener una enfermedad peligrosa para su salud acuda a un centro médico a la brevedad.</string>
+
+    <string name="clasifTitle">Catálogo de Enfermedades</string>
+
+    <string name="btn_tp">Captura</string>
+    <string name="tv_more_info">Más información:</string>
+    <string name="pacify">Cargando...</string>
+    <string name="btn_atras">Atras</string>
+
+    <string name="placeholderTitle">Placeholder</string>
+    <string name="placeholderBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="titleMoreDis">Otras Enfermedades Posibles</string>
+    <string name="btn_reporte">¿Cometimos un Error?</string>
+
+    <string name="responseSanoTitle">No Se Detectó Una Enfermedad</string>
+    <string name="responseSanoSubTitle">¿No estás seguro del resultado?</string>
+    <string name="responseSanoDesc">¡Toma otra foto o consulta el catálogo de enfermedades clasificables!</string>
+    <string name="btn_response_check">Tomar Otra Foto</string>
+    <string name="btn_response_cat">Revisar Catalogo de Enfermedades Clasificables</string>
+
+    <string name="titleDialogReport">Reporte</string>
+    <string name="reportHint">Información extra</string>
+    <string name="reportMsg">Seleccione en la lista la enfermedad que cree que corresponde a su imagen o eliga \'otro\' y escriba el nombre en la información extra</string>
+
+
+    <string name="confidence">% de confianza</string>
+</resources>
